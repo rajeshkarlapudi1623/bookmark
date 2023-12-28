@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.page{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 30px 0 0 0;
+}
+
+.navigations{
+    display: flex;
+    gap: 40px;
+}
+
+.navigations p{
+    color: hsl(229, 8%, 60%);
+    font-size: 0.8em;
+}
+
+.click{
+    width: 80px;
+    height: 30px;
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+}
+
+.click p{
+    color: white;
+    font-size: 0.8em;
+}
+
+.container{
+    width: 100%;
+}
+
+.part1{
+    width: 100%;
+    height: 20%;
+}
+
+.part1 img{
+    width: 40%;
+    height: 65%;
+    margin-left: 630px;
+}
+
+.section1{
+    width: 70%;
+    height: 60%;
+    margin-top: -300px;
+}
+
+.section1 h3{
+    width: 51%;
+    margin-left: 115px;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.section1 p{
+    width: 50%;
+    margin-left: 115px;
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: hsl(229, 8%, 60%);
+}
+
+.sites{
+    width: 30%;
+    height: 70px;
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site1{
+    width: 50%;
+    height: 35px;
+    margin-left: 115px;
+    margin-top: 65px;
+}
+
+.site2{
+    width: 50%;
+    height: 35px;
+    margin-left: 115px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site1 p{
+    width: 120px;
+    height: 30px;
+    background-color: hsl(231, 69%, 60%);
+    margin-top: -170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    border-radius: 3px;
+    color: white;
+}
+
+.site2 p{
+    width: 120px;
+    height: 30px;
+    color: hsl(229, 8%, 60%);
+    margin-left: -100px;
+    margin-top: -105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+
+.section2{
+    width: 100%;
+    height: 40%;
+}
+
+.section2 h3{
+    height: 100px;
+    font-size: 1.5em;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 p{
+    width: 30%;
+    margin: auto;
+    margin-top: -25px;
+    display: flex;
+    font-size: 0.9em;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+}
+
+.part2{
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: hsl(229, 8%, 60%);
+    border-bottom: 1.5px solid hsl(229, 8%, 60%);
+}
+
+.part3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.part3 img{
+    margin-left: 130px;
+}
+
+.section3 h3{
+    width:50%;
+    font-size: 2.2em;
+}
+
+.section3 p{
+    width: 70%;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.information button{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    border-radius: 3px;
+    border: none;
+    background-color: hsl(231, 69%, 60%);
+    color: whitesmoke;
+}
+
+.part4{
+    width: 100%;
+    height: 450px;
+}
+
+.part4 h3{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.part4 p{
+    width: 31%;
+    font-size: 0.9em;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.images{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1{
+    width: 30%;
+    height: 230px;
+    border-left: 1.5px solid whitesmoke;
+    border-bottom: 1.5px solid whitesmoke;
+    border-right: 1.5px solid whitesmoke;
+}
+
+.image1 img{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+}
+
+.image1 h4{
+    width: 60%;
+    font-size: 1em;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image1 h6{
+    width: 55%;
+    font-size: 0.7em;
+    display: flex;
+    margin: auto;
+    margin-top: 7px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+}
+
+.image1 h5{
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: hsl(231, 69%, 60%);
+    font-size: 0.7em;
+    display: flex;
+    margin: auto;
+    margin-top: 65px;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    color: whitesmoke;
+}
+
+.image2{
+    width: 30%;
+    height: 245px;
+    margin-top: 30px;
+    border-left: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.image2 img{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+}
+
+.image2 h4{
+    width: 60%;
+    font-size: 1em;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image2 h6{
+    width: 60%;
+    font-size: 0.7em;
+    display: flex;
+    margin: auto;
+    margin-top: 7px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+}
+
+.image2 h5{
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: hsl(231, 69%, 60%);
+    font-size: 0.7em;
+    display: flex;
+    margin: auto;
+    margin-top: 65px;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    color: whitesmoke;
+}
+
+.image3{
+    width: 30%;
+    height: 230px;
+    margin-top: 60px;
+    border-left: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    border-right: 5px solid whitesmoke;
+}
+
+.image3 img{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+}
+
+.image3 h4{
+    width: 60%;
+    font-size: 1em;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image3 h6{
+    width: 64%;
+    font-size: 0.72em;
+    display: flex;
+    margin: auto;
+    margin-top: 7px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+}
+
+.image3 h5{
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: hsl(231, 69%, 60%);
+    font-size: 0.7em;
+    display: flex;
+    margin: auto;
+    margin-top: 65px;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    color: whitesmoke;
+}
+
+.part5{
+    width: 100%;
+    height: 85px;
+}
+
+.part5 h3{
+    width: 100%;
+    height: max-content;
+    font-size: 1.6em;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.part5 p{
+    width: 33%;
+    height: 30px;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+}
+
+.click1{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.click1 button{
+    width: 70px;
+    height: 30px;
+    font-size: 0.6em;
+    background-color: hsl(231, 69%, 60%);
+    color: hsl(0, 4%, 79%);
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.footer1{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(231, 69%, 60%);
+}
+
+.footer1 h5{
+    letter-spacing: 4px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer1 h2{
+    width: 30%;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+}
+
+.contact{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.contact input{
+    width: 275px;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact button{
+    width: 100px;
+    height: 35px;
+    font-size: 0.8em;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(0, 94%, 66%);
+}
+
+.footer2{
+    width: 100%;
+    height: 70px;
+    background-color: hsl(228, 45%, 44%);;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 125px;
+    margin-top: 25px;
+}
+
+.navigations1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 0.85em;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.socialmedia{
+    width: 200px;
+    height: 25px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
